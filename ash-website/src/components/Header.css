@@ -1,3 +1,7 @@
+.top-bar {
+  justify-content: center;
+};
+
 .name {
     position: sticky;
 };
