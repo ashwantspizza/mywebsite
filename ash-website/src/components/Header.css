@@ -2,23 +2,7 @@
   justify-content: center;
 };
 
-.name {
-    position: sticky;
-};
-
-.work {
-    flex: 2;
-    font-size: large;
-};
-
-.about {
-    position: sticky;
-};
-
-.contact {
-    position: sticky;
-};
-
-.cv {
-    position: sticky;
+.name, .work, .about, .contact, .cv {
+    display: block;
+    text-align: right;
 };
