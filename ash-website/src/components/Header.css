@@ -1,8 +1,12 @@
 .top-bar {
+  padding: 20px;
+  display: flex;
   justify-content: center;
-};
+}
 
-.name, .work, .about, .contact, .cv {
-    display: block;
-    text-align: right;
-};
+.header-item {
+  justify-content: right;
+  font-size: 13px;
+  margin: 0 20px;
+  color: black;; 
+}

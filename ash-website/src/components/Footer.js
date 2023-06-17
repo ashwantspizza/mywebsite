@@ -2,10 +2,10 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer>
+    <div className = "foot">
     <h3>designed and built with react.js by aisling 'ash' brogan-smith</h3>
       <p>&copy; 2023 all rights reserved</p>
-    </footer>
+    </div>
   );
 }
 
