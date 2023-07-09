@@ -1,12 +1,13 @@
 .top-bar {
   padding: 20px;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .header-item {
-  justify-content: right;
-  font-size: 13px;
+  display: flex;
+  font-size: 14px;
   margin: 0 20px;
-  color: black;; 
+  color: #DACCFA; 
 }

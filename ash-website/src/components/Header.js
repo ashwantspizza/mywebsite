@@ -1,5 +1,14 @@
 import React from 'react';
 import './Header.css';
+// import { HashLink } from "react-router-hash-link";
+
+{/* <HashLink smooth to="/#work">
+								work
+							</HashLink> */}
+
+{/* <HashLink smooth to="/#about">
+								about
+							</HashLink> */}
 
 function Header() {
   return (
