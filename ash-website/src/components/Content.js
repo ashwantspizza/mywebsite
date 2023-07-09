@@ -6,11 +6,9 @@ function Content() {
   return (
   <>
     <div className = "my-work">
-     <h2>my work</h2>
+      <h2>my work</h2>
+        <img src={hackhealth} alt="hackhealth-img" className = "hackhealth-image"/>
     </div>
-      <div className = "hackhealth-image">
-        <img src={hackhealth} alt="hackhealth-img" />
-      </div>
   </>
   );
 }
