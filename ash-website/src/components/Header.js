@@ -2,13 +2,21 @@ import React from 'react';
 import './Header.css';
 // import { HashLink } from "react-router-hash-link";
 
-{/* <HashLink smooth to="/#work">
-								work
-							</HashLink> */}
+// <HashLink smooth to="/path#work">
+// 								work
+// 							</HashLink> 
 
-{/* <HashLink smooth to="/#about">
-								about
-							</HashLink> */}
+// <HashLink smooth to="/path#about">
+// 								about
+// 							</HashLink> 
+
+// <HashLink smooth to="/path#contact">
+//               contact
+//               </HashLink> 
+
+// <HashLink smooth to="/path#cv">
+// 								cv
+// 							</HashLink> 
 
 function Header() {
   return (

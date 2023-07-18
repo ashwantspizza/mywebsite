@@ -2,6 +2,7 @@
 
 .app {
 	display: flex;
+	justify-content: center;
 	flex-direction: column;
 	font-family: "Quicksand", sans-serif;
     background-color: #20153E;
