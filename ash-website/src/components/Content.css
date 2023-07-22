@@ -17,10 +17,13 @@
     width: 750px;
 }
 
-.my-name {
+.name-image {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    width: 100px;
+    width: 100%;
+    position: relative;
+    border-color: red;
+    border-style: solid;
 }
