@@ -17,13 +17,20 @@
     width: 750px;
 }
 
-.name-image {
+.name-image-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100%;
-    width: 100%;
-    position: relative;
+    align-items: center;
     border-color: red;
     border-style: solid;
+    height: 100%;
+    width: 100%;
+}
+
+.name-image {
+    align-items: center;
+    max-height: 500px;
+    width: auto;
+    max-width: 100%;
 }
