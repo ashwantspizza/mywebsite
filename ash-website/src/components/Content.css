@@ -1,4 +1,4 @@
-.my-work {
+.my-work-section {
     border-color: white;
     border-style: solid;
     display: flex;
@@ -6,6 +6,28 @@
     align-items: center;
     justify-content: flex-start;
     font-size: 2rem;
+}
+
+.my-work-text {
+    border-color: blue;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.hackhealth-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: #4f4fff;
+    border-style: solid;
+    height: 100%;
+    width: 100%;
 }
 
 .hackhealth-image {
@@ -30,7 +52,7 @@
 
 .name-image {
     align-items: center;
-    max-height: 500px;
+    max-height: 200px;
     width: auto;
     max-width: 100%;
 }
