@@ -13,8 +13,11 @@ function Content() {
    <div className = "my-work-text">
         <h2>my work</h2>
   </div>
-  <div className = "hackhealth-image-container">
+  <div className = "hackhealth-container">
         <img src={hackhealth} alt="hackhealth-img" className = "hackhealth-image"/>
+      <div className = "hackhealth-project-text">
+        <h3>HackHealth</h3>
+      </div>
   </div>
     </div>
   </>
