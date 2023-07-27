@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-// import { HashLink } from "react-router-hash-link";
+import { HashLink } from "react-router-hash-link";
 
 // <HashLink smooth to="/path#work">
 // 								work
@@ -20,12 +20,21 @@ import './Header.css';
 
 function Header() {
   return (
-    <div className="top-bar">
+    <>
+      <div className="top-bar">
       <div className="header-item">work</div>
+        {/* <div className="work-button"><HashLink smooth to="/#work">
+          <Button
+            className="work-button"
+            label="work"
+          ></Button>
+        </HashLink>
+        </div> */}
       <div className="header-item">about</div>
       <div className="header-item">contact</div>
       <div className="header-item">cv</div>
-    </div>
+      </div>
+    </>
   );
 }
 
