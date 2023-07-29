@@ -7,7 +7,7 @@ function Content() {
   return (
   <>
   <div className = "name-image-container">
-    <img src={name} alt="name-img" className = "name-image"/>
+    <img src={name} alt="name-img" className = "name-image" width="100%"/>
   </div>
   <div className = "my-work-section">
    <div className = "my-work-text">

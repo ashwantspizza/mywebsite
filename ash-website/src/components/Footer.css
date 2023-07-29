@@ -1,6 +1,4 @@
 .foot {
-    border-color: blueviolet;
-    border-style: solid;
     display: flex;
     flex-direction: column;
     align-items: center;
