@@ -1,6 +1,4 @@
 .top-bar {
-  border-color: blueviolet;
-  border-style: solid;
   padding: 20px;
   display: flex;
   flex-direction: row;
@@ -8,11 +6,8 @@
 }
 
 .header-item {
-  border-color: pink;
-  border-style: solid;
   display: flex;
   font-size: 17px;
   margin: 0 30px;
-  color: #DACCFA; 
   font-weight: 550;
 }

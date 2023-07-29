@@ -15,8 +15,12 @@ function Content() {
   </div>
   <div className = "hackhealth-container">
         <img src={hackhealth} alt="hackhealth-img" className = "hackhealth-image"/>
-      <div className = "hackhealth-project-text">
+        <div className = "hackhealth-project-desc-container">
+      <div className = "hackhealth-project-title">
         <h3>HackHealth</h3>
+      </div>
+      <div className = "hackhealth-project-desc">HackHealth is an application built in React that helps you to keep track of your daily steps and your weekly step goals.</div>
+      <div className = "hackhealth-project-link">repo link</div>
       </div>
   </div>
     </div>
