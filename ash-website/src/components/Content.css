@@ -86,3 +86,13 @@
     height: 100%;
     width: 100%;
 }
+
+.hackhealth-project-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    height: 100%;
+    width: 100%;
+}
