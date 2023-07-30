@@ -30,7 +30,7 @@ function LandingPage() {
         <section id="work">
         <div className="top-bar">
       <div className = "name-image-container">
-    <img src={name} alt="name-img" className = "name-image" width="100%"/>
+    <img src={name} alt="name-img" className = "name-image"/>
   </div>
   <div className = "my-work-section">
    <div className = "my-work-text">
