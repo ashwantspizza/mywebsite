@@ -10,21 +10,28 @@ function LandingPage() {
     <>
       <HashRouter>
         <nav>
+        <div className='nav-bar'>
+        <div className='header-item'>
           <HashLink smooth to="/path#work">
             work
           </HashLink>
-
+          </div>
+          <div className='header-item'>
           <HashLink smooth to="/path#about">
             about
           </HashLink>
-
+          </div>
+          <div className='header-item'>
           <HashLink smooth to="/path#contact">
             contact
           </HashLink>
-
+          </div>
+          <div className='header-item'>
           <HashLink smooth to="/path#cv">
             cv
           </HashLink>
+          </div>
+          </div>
         </nav>
 
         <section id="work">
