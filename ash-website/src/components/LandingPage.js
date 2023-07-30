@@ -48,7 +48,7 @@ function LandingPage() {
       <img src={hackhealth} alt="hackhealth-img" className="hackhealth-image" />
       <div className="hackhealth-project-desc-container">
         <div className="hackhealth-project-title"> <h3>HackHealth</h3> </div>
-        <div className="hackhealth-project-desc">HackHealth is an application built in React that helps you to keep track of your daily steps and your weekly step goals.</div>
+        <div className="hackhealth-project-desc">HackHealth is an application that helps you to keep track of your daily steps and your weekly step goals.</div>
         <div className="hackhealth-project-link">
           <a href="https://github.com/SchoolOfCode/bc14_w7_project-frontend-room1-ash-anjum-david-tom">repo link</a>
         </div>
@@ -58,7 +58,7 @@ function LandingPage() {
       <img src={nudge} alt="nudge-img" className="nudge-image" />
       <div className="nudge-project-desc-container">
         <div className="nudge-project-title"> <h3>Nudge</h3> </div>
-        <div className="nudge-project-desc">Nudge is an application built in React that ...</div>
+        <div className="nudge-project-desc">Nudge is an application that empowers individuals and motivates them to study, prompting them to revise cosistently and compete with friends.</div>
         <div className="nudge-project-link">
           <a href="https://8bit-nudge.netlify.app/">app link</a>
         </div>
@@ -66,7 +66,6 @@ function LandingPage() {
     </div>
   </div>
 </section>
-
 
         <section id="about">
           {/* Content for the "about" section goes here */}
