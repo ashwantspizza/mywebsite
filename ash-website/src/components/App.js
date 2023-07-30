@@ -1,14 +1,12 @@
 import './App.css';
 import React from 'react';
-import Header from './Header';
-import Content from './Content';
+import LandingPage from './LandingPage';
 import Footer from './Footer';
 
 function App() {
   return (
     <div className = "app">
-      <Header />
-      <Content />
+      <LandingPage />
       <Footer />
     </div>
   );

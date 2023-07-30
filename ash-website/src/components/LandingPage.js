@@ -1,12 +1,34 @@
 import React from 'react';
-import './Content.css';
+import './LandingPage.css';
+import './LandingPage.css';
 import hackhealth from '../images/hackhealth.png';
 import name from '../images/name.png';
+import { HashLink } from "react-router-hash-link";
 
-function Content() {
+function LandingPage() {
   return (
-  <>
-  <div className = "name-image-container">
+    <>
+    <nav>
+      <HashLink smooth to="/path#work">
+        work
+      </HashLink>
+
+      <HashLink smooth to="/path#about">
+        about
+      </HashLink>
+
+      <HashLink smooth to="/path#contact">
+        contact
+      </HashLink>
+
+      <HashLink smooth to="/path#cv">
+        cv
+      </HashLink>
+    </nav>
+
+    <div className="top-bar">
+      <section id="work">
+      <div className = "name-image-container">
     <img src={name} alt="name-img" className = "name-image" width="100%"/>
   </div>
   <div className = "my-work-section">
@@ -26,8 +48,22 @@ function Content() {
       </div>
   </div>
     </div>
-  </>
+      </section>
+
+      <section id="about">
+        {/* Content for the "about" section goes here */}
+      </section>
+
+      <section id="contact">
+        {/* Content for the "contact" section goes here */}
+      </section>
+
+      <section id="cv">
+        {/* Content for the "cv" section goes here */}
+      </section>
+    </div>
+    </>
   );
 }
 
-export default Content;
+export default LandingPage;
