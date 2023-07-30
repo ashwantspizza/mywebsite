@@ -1,13 +1,13 @@
 import React from 'react';
 import './LandingPage.css';
-import './LandingPage.css';
 import hackhealth from '../images/hackhealth.png';
 import name from '../images/name.png';
+import { HashRouter } from 'react-router-dom';
 import { HashLink } from "react-router-hash-link";
 
 function LandingPage() {
-  return (
-    <>
+  return ( <>
+    <HashRouter
     <nav>
       <HashLink smooth to="/path#work">
         work
@@ -26,8 +26,8 @@ function LandingPage() {
       </HashLink>
     </nav>
 
-    <div className="top-bar">
       <section id="work">
+      <div className="top-bar">
       <div className = "name-image-container">
     <img src={name} alt="name-img" className = "name-image" width="100%"/>
   </div>
@@ -48,6 +48,7 @@ function LandingPage() {
       </div>
   </div>
     </div>
+    </div>
       </section>
 
       <section id="about">
@@ -61,7 +62,13 @@ function LandingPage() {
       <section id="cv">
         {/* Content for the "cv" section goes here */}
       </section>
+
+    <div className = "footer">
+    <h3>designed and built with react.js by aisling 'ash' brogan-smith</h3>
+      <p>&copy; 2023 all rights reserved</p>
     </div>
+
+    </HashRouter
     </>
   );
 }
