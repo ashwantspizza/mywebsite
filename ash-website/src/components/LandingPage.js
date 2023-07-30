@@ -3,31 +3,32 @@ import './LandingPage.css';
 import hackhealth from '../images/hackhealth.png';
 import name from '../images/name.png';
 import { HashRouter } from 'react-router-dom';
-import { HashLink } from "react-router-hash-link";
+import { HashLink } from 'react-router-hash-link';
 
 function LandingPage() {
-  return ( <>
-    <HashRouter
-    <nav>
-      <HashLink smooth to="/path#work">
-        work
-      </HashLink>
+  return (
+    <>
+      <HashRouter>
+        <nav>
+          <HashLink smooth to="/path#work">
+            work
+          </HashLink>
 
-      <HashLink smooth to="/path#about">
-        about
-      </HashLink>
+          <HashLink smooth to="/path#about">
+            about
+          </HashLink>
 
-      <HashLink smooth to="/path#contact">
-        contact
-      </HashLink>
+          <HashLink smooth to="/path#contact">
+            contact
+          </HashLink>
 
-      <HashLink smooth to="/path#cv">
-        cv
-      </HashLink>
-    </nav>
+          <HashLink smooth to="/path#cv">
+            cv
+          </HashLink>
+        </nav>
 
-      <section id="work">
-      <div className="top-bar">
+        <section id="work">
+        <div className="top-bar">
       <div className = "name-image-container">
     <img src={name} alt="name-img" className = "name-image" width="100%"/>
   </div>
@@ -49,26 +50,25 @@ function LandingPage() {
   </div>
     </div>
     </div>
-      </section>
+        </section>
 
-      <section id="about">
-        {/* Content for the "about" section goes here */}
-      </section>
+        <section id="about">
+          {/* Content for the "about" section goes here */}
+        </section>
 
-      <section id="contact">
-        {/* Content for the "contact" section goes here */}
-      </section>
+        <section id="contact">
+          {/* Content for the "contact" section goes here */}
+        </section>
 
-      <section id="cv">
-        {/* Content for the "cv" section goes here */}
-      </section>
+        <section id="cv">
+          {/* Content for the "cv" section goes here */}
+        </section>
 
-    <div className = "footer">
-    <h3>designed and built with react.js by aisling 'ash' brogan-smith</h3>
-      <p>&copy; 2023 all rights reserved</p>
-    </div>
-
-    </HashRouter
+        <div className="footer">
+          <h3>designed and built with react.js by aisling 'ash' brogan-smith</h3>
+          <p>&copy; 2023 all rights reserved</p>
+        </div>
+      </HashRouter>
     </>
   );
 }
