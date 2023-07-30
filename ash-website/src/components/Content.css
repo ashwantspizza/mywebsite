@@ -1,6 +1,4 @@
 .name-image-container {
-    border-color: red;
-    border-style: solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,7 +32,7 @@
     align-items: center;
     justify-content: flex-start;
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
 
 .hackhealth-container {
@@ -43,6 +41,7 @@
     justify-content: flex-start;
     align-items: center;
     margin-left: 40px;
+    margin-bottom: 80px;
     height: 100%;
     width: 100%;
 }
@@ -72,7 +71,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     height: 100%;
     width: 100%;
 }
@@ -82,7 +81,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     height: 100%;
     width: 100%;
 }
@@ -92,7 +91,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     height: 100%;
     width: 100%;
 }
