@@ -28,11 +28,7 @@ function LandingPage() {
             contact
           </HashLink>
           </div>
-          <div className='header-item'>
-          <HashLink smooth to="/path#cv">
-            cv
-          </HashLink>
-          </div>
+          <div className='header-item'> cv </div>
           </div>
         </nav>
        
@@ -97,11 +93,10 @@ function LandingPage() {
         </section>
 
         <section id="contact">
-          {/* Content for the "contact" section goes here */}
-        </section>
-
-        <section id="cv">
-          {/* Content for the "cv" section goes here */}
+        <div className="contact-section">
+    <div className="contact-title-text"> <h2>contact</h2> </div>
+    <div className="contact-desc"> <p>As I'm currently looking for my first role in tech, I would love to hear questions/feedback and will be open to any opportunities that you may have for me!</p></div>
+    </div>
         </section>
 
         <div className="footer">

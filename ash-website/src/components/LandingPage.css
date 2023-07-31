@@ -215,6 +215,23 @@
   font-size: 1.75rem;
 }
 
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 150px;
+}
+
+.contact-title-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  font-size: 1.75rem;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
