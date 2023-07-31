@@ -104,7 +104,7 @@ I'm currently working on my portfolio/website as well as brushing up on my React
 
         <div className="contact-section">
     <div className="contact-title-text"> <h2>contact</h2> </div>
-    <div className="contact-desc"> <p>As I'm currently looking for my first role in tech, I would love to hear questions/feedback and will be open to any opportunities that you may have for me!</p></div>
+    <div className="contact-desc"> As I'm currently looking for my first role in tech, I would love to hear questions/feedback and will be open to any opportunities that you may have for me!</div>
     </div>
 
         </section>
