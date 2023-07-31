@@ -59,7 +59,7 @@ function LandingPage() {
       <img src={nudge} alt="nudge-img" className="nudge-image" />
       <div className="nudge-project-desc-container">
         <div className="nudge-project-title"> <h3>Nudge</h3> </div>
-        <div className="nudge-project-desc">Nudge is an application that empowers individuals and motivates them to study, prompting them to revise cosistently and compete with friends.</div>
+        <div className="nudge-project-desc">Nudge is an application that empowers individuals and motivates them to study, prompting them to revise consistently and compete with friends.</div>
         <div className="nudge-project-link">
           <a href="https://8bit-nudge.netlify.app/">app link</a>
         </div>
@@ -89,7 +89,11 @@ function LandingPage() {
 </section>
 
         <section id="about">
-          {/* Content for the "about" section goes here */}
+        <div className="about-section">
+    <div className="about-text">
+      <h2>about</h2>
+    </div>
+    </div>
         </section>
 
         <section id="contact">
