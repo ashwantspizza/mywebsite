@@ -37,6 +37,7 @@ function LandingPage() {
   </div>
 
   <section id="work">
+
   <div className="my-work-section">
     <div className="my-work-text">
       <h2>my work</h2>
@@ -82,21 +83,30 @@ function LandingPage() {
   <p>PostgreSQL</p>
   </div>
   </div>
+  
 </section>
 
         <section id="about">
+
         <div className="about-section">
-    <div className="about-text">
-      <h2>about</h2>
+    <div className="about-text"> <h2>about</h2> </div>
+    <div className="about-desc"> 
+    <div className="about-desc-1">A 20-year-old aspiring software developer who is also a foodie, has a knack for solving puzzles and loves creating innovative solutions. Since childhood, the world of creating has always fascinated me - I'd always be annoying my mum by cutting things out from her magazines, scribbling onto them, or creating collages to make something of my own.
+Learning some python in high school briefly taught me how to solve simple problems digitally and this brought me so much joy but I never had the courage to pursue it.</div>
+<div className="about-desc-2">Now, I've taken the leap and left my job to revisit my love of coding and pursue a career where I can apply my logical problem-solving skills!
+I'm currently working on my portfolio/website as well as brushing up on my React.js! I'm also planning to learn Next.js, C# and TailwindCSS at some point soon.</div>
+</div>
     </div>
-    </div>
+
         </section>
 
         <section id="contact">
+
         <div className="contact-section">
     <div className="contact-title-text"> <h2>contact</h2> </div>
     <div className="contact-desc"> <p>As I'm currently looking for my first role in tech, I would love to hear questions/feedback and will be open to any opportunities that you may have for me!</p></div>
     </div>
+
         </section>
 
         <div className="footer">
