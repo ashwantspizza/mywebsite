@@ -9,6 +9,7 @@ import { HashLink } from 'react-router-hash-link';
 function LandingPage() {
   return (
     <>
+    {/* hashlinks for nav bar */}
       <HashRouter>
         <nav>
         <div className='nav-bar'>
@@ -34,7 +35,7 @@ function LandingPage() {
           </div>
           </div>
         </nav>
-
+       
         <div className = "name-image-container">
     <img src={name} alt="name-img" className = "name-image"/>
   </div>
@@ -64,6 +65,26 @@ function LandingPage() {
         </div>
       </div>
     </div>
+  </div>
+
+  {/* toolbox section */}
+  <div className='toolbox-section-container'>
+  <div className='toolbox-text'> <h2>toolbox</h2> </div>
+  <div className='toolbox'>
+  <p>JavaScript</p>
+  <p>TypeScript</p>
+  <p>HTML</p>
+  <p>CSS</p>
+  <p>Git</p>
+  <p>GitHub</p>
+  <p>React</p>
+  <p>Node.js</p>
+  <p>Express.js</p>
+  <p>Jest</p>
+  <p>Playwright</p>
+  <p>Rest API</p>
+  <p>PostgreSQL</p>
+  </div>
   </div>
 </section>
 
