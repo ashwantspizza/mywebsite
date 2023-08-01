@@ -198,6 +198,39 @@
   width: 100%;
 }
 
+.toolbox-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 100%;
+  width: 50px;
+}
+
+.playwright-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 100%;
+  width: 80px;
+}
+
+.rest-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 100%;
+  width: 80px;
+}
+
 .about-section {
   display: flex;
   flex-direction: column;
