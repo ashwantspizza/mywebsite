@@ -16,7 +16,7 @@ import expresslogo from '../images/expresslogo.png';
 import jestlogo from '../images/jestlogo.png';
 import playwrightlogo from '../images/playwrightlogo.png';
 import restAPIlogo from '../images/restAPIlogo.png';
-import postgresqllogo from '../images/postgresqllogo.png';
+import postgresql from '../images/postgresql.png';
 import { HashRouter } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
@@ -94,7 +94,7 @@ function LandingPage() {
 <img src={jestlogo} alt="jest-img" className="jest-logo" />
 <img src={playwrightlogo} alt="playwright-img" className="playwright-logo" />
 <img src={restAPIlogo} alt="rest-img" className="rest-logo" />
-<img src={postgresqllogo} alt="postgresql-img" className="postgresql-logo" />
+<img src={postgresql} alt="postgresql-img" className="postgresql-logo" />
   </div>
   </div>
   
