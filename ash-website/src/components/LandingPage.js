@@ -5,6 +5,18 @@ import hackhealth from '../images/hackhealth.png';
 import nudge from '../images/nudge.png';
 import githublogo from '../images/githublogo.png';
 import linkedinlogo from '../images/linkedinlogo.png';
+import javascriptlogo from '../images/javascriptlogo.png';
+import typescriptlogo from '../images/typescriptlogo.png';
+import htmllogo from '../images/htmllogo.png';
+import csslogo from '../images/csslogo.png';
+import gitlogo from '../images/gitlogo.png';
+import reactlogo from '../images/reactlogo.png';
+import nodelogo from '../images/nodelogo.png';
+import expresslogo from '../images/expresslogo.png';
+import jestlogo from '../images/jestlogo.png';
+import playwrightlogo from '../images/playwrightlogo.png';
+import restAPIlogo from '../images/restAPIlogo.png';
+import postgresqllogo from '../images/postgresqllogo.png';
 import { HashRouter } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
@@ -70,19 +82,19 @@ function LandingPage() {
   <div className='toolbox-section-container'>
   <div className='toolbox-text'> <h2>toolbox</h2> </div>
   <div className='toolbox'>
-  <p>JavaScript</p>
-  <p>TypeScript</p>
-  <p>HTML</p>
-  <p>CSS</p>
-  <p>Git</p>
-  <p>GitHub</p>
-  <p>React</p>
-  <p>Node.js</p>
-  <p>Express.js</p>
-  <p>Jest</p>
-  <p>Playwright</p>
-  <p>Rest API</p>
-  <p>PostgreSQL</p>
+<img src={javascriptlogo} alt="javascript-img" className="javascript-logo" />
+<img src={typescriptlogo} alt="typescript-img" className="typescript-logo" />
+<img src={htmllogo} alt="html-img" className="html-logo" />
+<img src={csslogo} alt="css-img" className="css-logo" />
+<img src={gitlogo} alt="git-img" className="git-logo" />
+<img src={githublogo} alt="github-img" className="github-logo" />
+<img src={reactlogo} alt="react-img" className="react-logo" />
+<img src={nodelogo} alt="node-img" className="node-logo" />
+<img src={expresslogo} alt="express-img" className="express-logo" />
+<img src={jestlogo} alt="jest-img" className="jest-logo" />
+<img src={playwrightlogo} alt="playwright-img" className="playwright-logo" />
+<img src={restAPIlogo} alt="rest-img" className="rest-logo" />
+<img src={postgresqllogo} alt="postgresql-img" className="postgresql-logo" />
   </div>
   </div>
   
