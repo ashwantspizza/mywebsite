@@ -3,6 +3,8 @@ import './LandingPage.css';
 import name from '../images/name.png';
 import hackhealth from '../images/hackhealth.png';
 import nudge from '../images/nudge.png';
+import githublogo from '../images/githublogo.png';
+import linkedinlogo from '../images/linkedinlogo.png';
 import { HashRouter } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
@@ -105,6 +107,11 @@ I'm currently working on my portfolio/website as well as brushing up on my React
         <div className="contact-section">
     <div className="contact-title-text"> <h2>contact</h2> </div>
     <div className="contact-desc"> As I'm currently looking for my first role in tech, I would love to hear questions/feedback and will be open to any opportunities that you may have for me!</div>
+    <div className="contact-email">You can reach out to me by email here: <strong>@aislingbrogansmith@gmail.com</strong></div>
+    <div className="contact-section-logos">
+    <img src={githublogo} alt="github-img" className="github-logo" />
+    <img src={linkedinlogo} alt="linkedin-img" className="linkedin-logo" />
+    </div>
     </div>
 
         </section>
