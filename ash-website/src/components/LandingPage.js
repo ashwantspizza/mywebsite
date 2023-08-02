@@ -69,7 +69,7 @@ function LandingPage() {
     <div className="nudge-container">
       <img src={nudge} alt="nudge-img" className="nudge-image" />
       <div className="nudge-project-desc-container">
-        <div className="nudge-project-title"> <h3>Nudge</h3> </div>
+        <div className="nudge-project-title"> <h3>NUDGE</h3> </div>
         <div className="nudge-project-desc">Nudge is an application that empowers individuals and motivates them to study, prompting them to revise consistently and compete with friends.</div>
         <div className="nudge-project-link">
           <a href="https://8bit-nudge.netlify.app/">app link</a>
@@ -117,7 +117,7 @@ I'm currently working on my portfolio/website as well as brushing up on my React
         <section id="contact">
 
         <div className="contact-section">
-    <div className="contact-title-text"> <h2>contact</h2> </div>
+    <div className="contact-text"> <h2>contact</h2> </div>
     <div className="contact-desc"> As I'm currently looking for my first role in tech, I would love to hear questions/feedback and will be open to any opportunities that you may have for me!</div>
     <div className="contact-email">You can reach out to me by email here: <strong>@aislingbrogansmith@gmail.com</strong></div>
     <div className="contact-section-logos">
