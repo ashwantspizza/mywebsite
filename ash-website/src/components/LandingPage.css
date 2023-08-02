@@ -203,6 +203,16 @@
   margin-right: 15px;
   height: 100%;
   width: 50px;
+  /*hover effects*/
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+  transition: 0.5s;
+}
+
+/*hover effects*/
+.toolbox-item:hover {
+  transform: scale(1.5);
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .2);
+  z-index: 2;
 }
 
 .playwright-logo {
@@ -214,6 +224,16 @@
   margin-right: 15px;
   height: 100%;
   width: 80px;
+  /*hover effects*/
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+  transition: 0.5s;
+}
+
+/*hover effects*/
+.playwright-logo:hover {
+  transform: scale(1.5);
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .2);
+  z-index: 2;
 }
 
 .rest-logo {
@@ -225,6 +245,16 @@
   margin-right: 15px;
   height: 100%;
   width: 80px;
+  /*hover effects*/
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+  transition: 0.5s;
+}
+
+/*hover effects*/
+.rest-logo:hover {
+  transform: scale(1.5);
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .2);
+  z-index: 2;
 }
 
 .about-section {
