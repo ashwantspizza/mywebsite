@@ -121,8 +121,15 @@ I'm currently working on my portfolio/website as well as brushing up on my React
     <div className="contact-desc"> As I'm currently looking for my first role in tech, I would love to hear questions/feedback and will be open to any opportunities that you may have for me!</div>
     <div className="contact-email">You can reach out to me by email here: <strong>@aislingbrogansmith@gmail.com</strong></div>
     <div className="contact-section-logos">
+
+    <a href="https://github.com/ashwantspizza" target="_blank" rel="noreferrer">
     <img src={githublogo} alt="github-img" className="github-logo" />
+    </a>
+
+    <a href="https://www.linkedin.com/in/aisling-brogan-smith-112302255/" target="_blank" rel="noreferrer">
     <img src={linkedinlogo} alt="linkedin-img" className="linkedin-logo" />
+    </a>
+
     </div>
     </div>
 
