@@ -204,14 +204,12 @@
   height: 100%;
   width: 50px;
   /*hover effects*/
-  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
   transition: 0.5s;
 }
 
 /*hover effects*/
 .toolbox-item:hover {
   transform: scale(1.5);
-  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .2);
   z-index: 2;
 }
 
@@ -225,14 +223,12 @@
   height: 100%;
   width: 80px;
   /*hover effects*/
-  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
   transition: 0.5s;
 }
 
 /*hover effects*/
 .playwright-logo:hover {
   transform: scale(1.5);
-  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .2);
   z-index: 2;
 }
 
@@ -246,14 +242,12 @@
   height: 100%;
   width: 80px;
   /*hover effects*/
-  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
   transition: 0.5s;
 }
 
 /*hover effects*/
 .rest-logo:hover {
   transform: scale(1.5);
-  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .2);
   z-index: 2;
 }
 
@@ -360,6 +354,14 @@
   justify-content: center;
   height: 100%;
   width: 100px;
+  /*hover effects*/
+  transition: 0.5s;
+}
+
+/*hover effects*/
+.github-logo:hover {
+  transform: scale(1.5);
+  z-index: 2;
 }
 
 .linkedin-logo {
@@ -368,6 +370,14 @@
   justify-content: center;
   height: 100%;
   width: 45px;
+  /*hover effects*/
+  transition: 0.5s;
+}
+
+/*hover effects*/
+.linkedin-logo:hover {
+  transform: scale(1.5);
+  z-index: 2;
 }
 
 .footer {
