@@ -87,7 +87,6 @@ function LandingPage() {
 <img src={htmllogo} alt="html-img" className="toolbox-item" />
 <img src={csslogo} alt="css-img" className="toolbox-item" />
 <img src={gitlogo} alt="git-img" className="toolbox-item" />
-<img src={githublogo} alt="github-img" className="github-logo" />
 <img src={reactlogo} alt="react-img" className="toolbox-item" />
 <img src={nodelogo} alt="node-img" className="toolbox-item" />
 <img src={expresslogo} alt="express-img" className="toolbox-item" />
