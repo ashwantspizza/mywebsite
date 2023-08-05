@@ -47,8 +47,6 @@
 }
 
 .hackhealth-container {
-  /* border-color:aliceblue;
-  border-style: solid; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -70,33 +68,24 @@
 }
 
 .hackhealth-image {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   border-radius: 10px;
   height: 100%;
   width: 500px;
+  text-align: center; /* Center the image horizontally */
 }
 
 .hackhealth-project-title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   font-size: 2rem;
   height: 100%;
   width: 100%;
 }
 
 .hackhealth-project-desc {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   font-size: 1.5rem;
   height: 100%;
   width: 100%;
 }
+
 
 .hackhealth-project-link {
   display: flex;
@@ -109,14 +98,12 @@
 }
 
 .nudge-container {
-  /* border-color: aliceblue;
-  border-style: solid; */
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-top: 150px;
-  height: 100%;
+  /* height: 100%; */ /* Not necessary, as it will be determined by its content */
   width: 100%;
 }
 
@@ -127,13 +114,10 @@
   align-items: center;
   margin-left: 175px;
   margin-right: 175px;
-  height: 100%;
   width: 100%;
 }
 
 .nudge-image {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   height: 100%;
   width: 500px;
@@ -141,33 +125,28 @@
 
 .nudge-project-title {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  height: 100%;
   width: 100%;
 }
 
 .nudge-project-desc {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
-  height: 100%;
   width: 100%;
 }
 
 .nudge-project-link {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 1.15rem;
-  height: 100%;
   width: 100%;
 }
+
 
 .toolbox-section-container {
   display: flex;
@@ -208,7 +187,7 @@
   height: 100%;
   width: 50px;
   /*hover effects*/
-  transition: 0.25s;
+  transition: 0.15s;
 }
 
 /*hover effects*/
@@ -227,7 +206,7 @@
   height: 100%;
   width: 80px;
   /*hover effects*/
-  transition: 0.25s;
+  transition: 0.15s;
 }
 
 /*hover effects*/
@@ -246,7 +225,7 @@
   height: 100%;
   width: 80px;
   /*hover effects*/
-  transition: 0.25s;
+  transition: 0.15s;
 }
 
 /*hover effects*/
@@ -358,7 +337,7 @@
   width: 45px;
   margin-right: 20px;
   /*hover effects*/
-  transition: 0.25s;
+  transition: 0.15s;
 }
 
 /*hover effects*/
@@ -374,7 +353,7 @@
   height: 100%;
   width: 45px;
   /*hover effects*/
-  transition: 0.25s;
+  transition: 0.15s;
 }
 
 /*hover effects*/
