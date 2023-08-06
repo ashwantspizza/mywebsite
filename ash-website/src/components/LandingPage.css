@@ -72,6 +72,14 @@
   width: 500px;
   padding: 100px;
   text-align: center;
+  /*hover effects*/
+  transition: 0.15s;
+}
+
+/*hover effects*/
+.hackhealth-image:hover {
+  transform: scale(1.25);
+  z-index: 2;
 }
 
 .hackhealth-project-title {
@@ -103,7 +111,6 @@
   justify-content: center;
   align-items: center;
   margin-top: 150px;
-  /* height: 100%; */ /* Not necessary, as it will be determined by its content */
   width: 100%;
 }
 
@@ -121,6 +128,14 @@
   padding: 100px;
   height: 100%;
   width: 500px;
+  /*hover effects*/
+  transition: 0.15s;
+}
+
+/*hover effects*/
+.nudge-image:hover {
+  transform: scale(1.25);
+  z-index: 2;
 }
 
 .nudge-project-title {
@@ -238,7 +253,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: flex-start; */ /* Remove this line to center the content vertically */
   margin-top: 150px;
 }
 
@@ -246,7 +260,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: flex-start; */ /* Remove this line to center the content vertically */
   width: 100%;
   font-size: 3rem;
 }

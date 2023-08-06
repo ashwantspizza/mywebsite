@@ -107,7 +107,7 @@ function LandingPage() {
     <div className="about-desc-1">A 20-year-old aspiring software developer who is also a foodie, has a knack for solving puzzles and loves creating innovative solutions. Since childhood, the world of creating has always fascinated me - I'd always be annoying my mum by cutting things out from her magazines, scribbling onto them, or creating collages to make something of my own.
 Learning some python in high school briefly taught me how to solve simple problems digitally and this brought me so much joy but I never had the courage to pursue it.</div>
 <div className="about-desc-2">Now, I've taken the leap and left my job to revisit my love of coding and pursue a career where I can apply my logical problem-solving skills!
-I'm currently working on my portfolio/website as well as brushing up on my React.js! I'm also planning to learn Next.js, C# and Tailwind CSS at some point soon.</div>
+The first project I've worked on since finishing the course is this website as well as brushing up on my React.js! I'm also planning to learn Next.js, C# and Tailwind CSS at some point soon.</div>
 </div>
     </div>
 
