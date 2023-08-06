@@ -3,6 +3,7 @@ import './LandingPage.css';
 import work from '../images/work.png';
 import about from '../images/about.png';
 import contact from '../images/contact.png';
+import cv from '../images/cv.png';
 import name from '../images/name.png';
 import hackhealth from '../images/hackhealth.png';
 import nudge from '../images/nudge.png';
@@ -26,6 +27,9 @@ import { HashRouter } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 function LandingPage() {
+
+  const cvPdfUrl = process.env.PUBLIC_URL + '/cv.pdf';
+  
   return (
     <>
     {/* hashlinks for nav bar */}
@@ -46,6 +50,11 @@ function LandingPage() {
           <HashLink smooth to="/path#contact">
             <img src={contact} alt="contact-img" className = "contact-header"/>
           </HashLink>
+          </div>
+          <div className='header-item'>
+          <a href={cvPdfUrl} target="_blank" rel="noopener noreferrer">
+          <img src={cv} alt="cv-img" className = "cv-header"/>
+          </a>
           </div>
           </div>
         </nav>
