@@ -17,6 +17,7 @@ import jestlogo from '../images/jestlogo.png';
 import playwrightlogo from '../images/playwrightlogo.png';
 import restAPIlogo from '../images/restAPIlogo.png';
 import postgresql from '../images/postgresql.png';
+import pixelstar from '../images/pixelstar.png';
 import { HashRouter } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
@@ -42,13 +43,16 @@ function LandingPage() {
             contact
           </HashLink>
           </div>
-          <div className='header-item'> cv </div>
           </div>
         </nav>
+
+        <section id="landingpage">
        
         <div className = "name-image-container">
     <img src={name} alt="name-img" className = "name-image"/>
   </div>
+
+        </section>
 
   <section id="work">
 
@@ -133,6 +137,13 @@ The first project I've worked on since finishing the course is this website as w
     </div>
 
         </section>
+        <div className="pixelstar-container">
+          <div className="pixelstar">
+          <HashLink smooth to="/path#landingpage">
+          <img src={pixelstar} alt="star-img" className = "pixelstar"/>
+          </HashLink>
+          </div>
+        </div>
 
         <div className="footer">
           <h3>designed and built with react.js by aisling 'ash' brogan-smith</h3>
