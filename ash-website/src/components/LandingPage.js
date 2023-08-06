@@ -86,26 +86,24 @@ function LandingPage() {
       <h2>my work</h2>
     </div>
     <div className="hackhealth-container">
+    <a href="https://github.com/SchoolOfCode/bc14_w7_project-frontend-room1-ash-anjum-david-tom">
       <img src={hackhealth} alt="hackhealth-img" className="hackhealth-image" />
+      </a>
       <div className="hackhealth-project-desc-container">
         <div className="hackhealth-project-title"> <h3>HackHealth</h3> </div>
         <div className="hackhealth-project-desc">HackHealth is an application that helps you to keep track of your daily steps and your weekly step goals.</div>
         <div className="hackhealth-project-link">
-          <a href="https://github.com/SchoolOfCode/bc14_w7_project-frontend-room1-ash-anjum-david-tom">
-            <img src={share} alt="share-img" className="share-logo" />
-          </a>
         </div>
       </div>
     </div>
     <div className="nudge-container">
+    <a href="https://8bit-nudge.netlify.app/">
       <img src={nudge} alt="nudge-img" className="nudge-image" />
+      </a>
       <div className="nudge-project-desc-container">
         <div className="nudge-project-title"> <h3>NUDGE</h3> </div>
         <div className="nudge-project-desc">Nudge is an application that empowers individuals and motivates them to study, prompting them to revise consistently and compete with friends.</div>
         <div className="nudge-project-link">
-          <a href="https://8bit-nudge.netlify.app/">
-            <img src={share} alt="share-img" className="share-logo" />
-          </a>
         </div>
       </div>
     </div>
