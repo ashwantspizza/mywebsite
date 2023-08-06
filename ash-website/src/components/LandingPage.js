@@ -1,5 +1,8 @@
 import React from 'react';
 import './LandingPage.css';
+import work from '../images/work.png';
+import about from '../images/about.png';
+import contact from '../images/contact.png';
 import name from '../images/name.png';
 import hackhealth from '../images/hackhealth.png';
 import nudge from '../images/nudge.png';
@@ -31,17 +34,17 @@ function LandingPage() {
         <div className='nav-bar'>
         <div className='header-item'>
           <HashLink smooth to="/path#work">
-            work
+            <img src={work} alt="work-img" className = "work-header"/>
           </HashLink>
           </div>
           <div className='header-item'>
           <HashLink smooth to="/path#about">
-            about
+            <img src={about} alt="about-img" className = "about-header"/>
           </HashLink>
           </div>
           <div className='header-item'>
           <HashLink smooth to="/path#contact">
-            contact
+            <img src={contact} alt="contact-img" className = "contact-header"/>
           </HashLink>
           </div>
           </div>
