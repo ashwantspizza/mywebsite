@@ -52,6 +52,18 @@ function LandingPage() {
     <img src={name} alt="name-img" className = "name-image"/>
   </div>
 
+  <div className="landing-contact-container">
+
+  <a href="https://github.com/ashwantspizza" target="_blank" rel="noreferrer">
+<img src={githublogo} alt="github-img" className="github-logo" />
+  </a>
+
+  <a href="https://www.linkedin.com/in/aisling-brogan-smith-112302255/" target="_blank" rel="noreferrer">
+<img src={linkedinlogo} alt="linkedin-img" className="linkedin-logo" />
+  </a>
+
+  </div>
+
         </section>
 
   <section id="work">
@@ -122,7 +134,7 @@ The first project I've worked on since finishing the course is this website as w
         <div className="contact-section">
     <div className="contact-text"> <h2>contact</h2> </div>
     <div className="contact-desc"> As I'm currently looking for a role in tech, I would love to hear any questions or feedback you have for me and will be open to any opportunities that you may have as well!</div>
-    <div className="contact-email">You can reach out to me by email here: <strong>@aislingbrogansmith@gmail.com</strong></div>
+    <div className="contact-email"> You can reach out to me by email here: <strong>@aislingbrogansmith@gmail.com</strong></div>
     <div className="contact-section-logos">
 
     <a href="https://github.com/ashwantspizza" target="_blank" rel="noreferrer">
