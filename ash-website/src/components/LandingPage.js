@@ -29,7 +29,7 @@ import { HashLink } from 'react-router-hash-link';
 function LandingPage() {
 
   const cvPdfUrl = process.env.PUBLIC_URL + '/cv.pdf';
-  
+
   return (
     <>
     {/* hashlinks for nav bar */}
