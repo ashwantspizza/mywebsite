@@ -21,7 +21,6 @@ import jestlogo from '../images/jestlogo.png';
 import playwrightlogo from '../images/playwrightlogo.png';
 import restAPIlogo from '../images/restAPIlogo.png';
 import postgresql from '../images/postgresql.png';
-import share from '../images/share.png';
 import pixelstar from '../images/pixelstar.png';
 import { HashRouter } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
