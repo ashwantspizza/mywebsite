@@ -22,6 +22,7 @@ import playwrightlogo from '../images/playwrightlogo.png';
 import restAPIlogo from '../images/restAPIlogo.png';
 import postgresql from '../images/postgresql.png';
 import pixelstar from '../images/pixelstar.png';
+import arrow from '../images/arrow.png';
 import { HashRouter } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
@@ -82,6 +83,7 @@ function LandingPage() {
 
   <div className="my-work-section">
     <div className="my-work-text">
+    <img src={arrow} alt="arrow-img" className="arrow-image" />
       <h2>my work</h2>
     </div>
     <div className="hackhealth-container">
@@ -110,7 +112,7 @@ function LandingPage() {
 
   {/* toolbox section */}
   <div className='toolbox-section-container'>
-  <div className='toolbox-text'> <h2>toolbox</h2> </div>
+  <div className='toolbox-text'> <img src={arrow} alt="arrow-img" className="arrow-image" /> <h2>toolbox</h2> </div>
   <div className='toolbox'>
 <img src={javascriptlogo} alt="javascript-img" className="toolbox-item" />
 <img src={typescriptlogo} alt="typescript-img" className="toolbox-item" />
@@ -132,7 +134,7 @@ function LandingPage() {
         <section id="about">
 
         <div className="about-section">
-    <div className="about-text"> <h2>about</h2> </div>
+    <div className="about-text"> <img src={arrow} alt="arrow-img" className="arrow-image" /> <h2>about</h2> </div>
     <div className="about-desc"> 
     <div className="about-desc-1">A 20-year-old aspiring software developer who is also a foodie, has a knack for solving puzzles and loves creating innovative solutions. Since childhood, the world of creating has always fascinated me - I'd always be annoying my mum by cutting things out from her magazines, scribbling onto them, or creating collages to make something of my own.
 Learning some python in high school briefly taught me how to solve simple problems digitally and this brought me so much joy but I never had the courage to pursue it.</div>
@@ -146,7 +148,7 @@ The first project I've worked on since finishing the course is this website as w
         <section id="contact">
 
         <div className="contact-section">
-    <div className="contact-text"> <h2>contact</h2> </div>
+    <div className="contact-text"> <img src={arrow} alt="arrow-img" className="arrow-image" /> <h2>contact</h2> </div>
     <div className="contact-desc"> As I'm currently looking for a role in tech, I would love to hear any questions or feedback you have for me and will be open to any opportunities that you may have as well!</div>
     <div className="contact-email"> You can reach out to me by email here: <strong>@aislingbrogansmith@gmail.com</strong></div>
     <div className="contact-section-logos">
