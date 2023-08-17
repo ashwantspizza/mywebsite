@@ -11,27 +11,23 @@
   border-radius: 7px;
 }
 
-.moonclouds-container  {
+.moonclouds-container {
+  border-color: aliceblue;
+  border-style: solid;
   display: flex;
-  flex-direction: row;
   justify-content: flex-start;
   width: 100%;
-  padding: 20px;
 }
 
 .moonclouds-image {
-  display: flex;
-  flex-direction: row;
-  height: 100%;
   width: 160px;
   /*hover effects*/
-  transition: 0.15s;
+  transition: transform 0.15s;
 }
 
 /*hover effects*/
 .moonclouds-image:hover {
   transform: scale(1.25);
-  z-index: 2;
 }
 
 .header-item:hover {
@@ -452,7 +448,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 75px;
+  margin-top: 80px;
 }
 
 .footer-image {

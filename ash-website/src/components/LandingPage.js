@@ -41,7 +41,9 @@ function LandingPage() {
         <nav>
         <div className='nav-bar'>
 
+        <HashLink smooth to="/path#landingpage">
         <div className = "moonclouds-container"> <img src={moonclouds} alt="moonclouds-img" className = "moonclouds-image"/> </div>
+        </HashLink>
 
         <div className='header-item'>
           <HashLink smooth to="/path#work">
