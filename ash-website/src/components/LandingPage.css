@@ -9,8 +9,6 @@
 .header-item {
   display: inline-block;
   padding: 8px 16px;
-  border-radius: 4px;
-  cursor: pointer;
 }
 
 .header-item:hover {
