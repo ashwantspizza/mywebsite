@@ -5,6 +5,7 @@ import about from '../images/about.png';
 import contact from '../images/contact.png';
 import cv from '../images/cv.png';
 import name from '../images/name.png';
+import moonclouds from '../images/moonclouds.png';
 import hackhealth from '../images/hackhealth.png';
 import nudge from '../images/nudge.png';
 import githublogo from '../images/githublogo.png';
@@ -25,6 +26,7 @@ import nextjs from '../images/nextjs.png';
 import tailwindcss from '../images/tailwindcss.png';
 import pixelstar from '../images/pixelstar.png';
 import arrow from '../images/arrow.png';
+import footer from '../images/footer.png';
 import { HashRouter } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
@@ -38,6 +40,9 @@ function LandingPage() {
       <HashRouter>
         <nav>
         <div className='nav-bar'>
+
+        <div className = "moonclouds-container"> <img src={moonclouds} alt="moonclouds-img" className = "moonclouds-image"/> </div>
+
         <div className='header-item'>
           <HashLink smooth to="/path#work">
             <img src={work} alt="work-img" className = "work-header"/>
@@ -180,6 +185,7 @@ The first project I've worked on since finishing the course is this website as w
         <div className="footer">
           <h3>designed and built with react.js by aisling 'ash' brogan-smith</h3>
           <p>&copy; 2023 all rights reserved</p>
+          <img src={footer} alt="footer-img" className="footer-image" />
         </div>
       </HashRouter>
     </>
