@@ -128,7 +128,7 @@ function LandingPage() {
 <img src={playwrightlogo} alt="playwright-img" className="playwright-logo" />
 <img src={restAPIlogo} alt="rest-img" className="rest-logo" />
 <img src={postgresql} alt="postgresql-img" className="toolbox-item" />
-<img src={nextjs} alt="nextjs-img" className="toolbox-item" />
+<img src={nextjs} alt="nextjs-img" className="nextjs-logo" />
 <img src={tailwindcss} alt="tailwindcss-img" className="toolbox-item" />
   </div>
   </div>

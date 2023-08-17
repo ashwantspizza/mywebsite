@@ -256,6 +256,25 @@
   z-index: 2;
 }
 
+.nextjs-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 100%;
+  width: 100px;
+  /*hover effects*/
+  transition: 0.15s;
+}
+
+/*hover effects*/
+.nextjs-logo:hover {
+  transform: scale(1.5);
+  z-index: 2;
+}
+
 .about-section {
   display: flex;
   flex-direction: column;
