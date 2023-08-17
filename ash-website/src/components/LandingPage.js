@@ -45,6 +45,7 @@ function LandingPage() {
         <div className = "moonclouds-container"> <img src={moonclouds} alt="moonclouds-img" className = "moonclouds-image"/> </div>
         </HashLink>
 
+<div className='wacc-nav'>
         <div className='header-item'>
           <HashLink smooth to="/path#work">
             <img src={work} alt="work-img" className = "work-header"/>
@@ -65,6 +66,7 @@ function LandingPage() {
           <img src={cv} alt="cv-img" className = "cv-header"/>
           </a>
           </div>
+  </div>
           </div>
         </nav>
 
