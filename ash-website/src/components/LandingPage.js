@@ -26,6 +26,7 @@ import nextjs from '../images/nextjs.png';
 import tailwindcss from '../images/tailwindcss.png';
 import pixelstar from '../images/pixelstar.png';
 import arrow from '../images/arrow.png';
+import heart from '../images/heart.png';
 import footer from '../images/footer.png';
 import { HashRouter } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
@@ -190,7 +191,10 @@ The first project I've worked on since finishing the course is this website as w
         <div className="footer">
           <h3>designed and built with react.js by aisling 'ash' brogan-smith</h3>
           <p>&copy; 2023 all rights reserved</p>
-          <img src={footer} alt="footer-img" className="footer-image" />
+        <div className='footer-image'>
+          <img src={heart} alt="heart-img" className="heart-footer" />
+          <img src={footer} alt="footer-img" className="chicken-footer" />
+        </div>
         </div>
       </HashRouter>
     </>
