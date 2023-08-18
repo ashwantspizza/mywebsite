@@ -30,7 +30,6 @@ import heart from '../images/heart.png';
 import footer from '../images/footer.png';
 import { HashRouter } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import { useState } from 'react';
 
 function LandingPage() {
 
