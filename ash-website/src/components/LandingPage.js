@@ -29,6 +29,7 @@ import arrow from '../images/arrow.png';
 import footer from '../images/footer.png';
 import { HashRouter } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
+import { useState } from 'react';
 
 function LandingPage() {
 
@@ -92,7 +93,7 @@ function LandingPage() {
 
   <section id="work">
 
-  <div className="my-work-section">
+  <div className='my-work-section'>
     <div className="my-work-text">
     <img src={arrow} alt="arrow-img" className="arrow-image" />
       <h2>my work</h2>
