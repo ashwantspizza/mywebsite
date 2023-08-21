@@ -307,7 +307,7 @@
 
 .about-desc {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 75%;
@@ -315,7 +315,8 @@
 }
 
 .about-desc-1,
-.about-desc-2 {
+.about-desc-2,
+.about-desc-3 {
   display: flex;
   flex-direction: column;
   align-items: center;
