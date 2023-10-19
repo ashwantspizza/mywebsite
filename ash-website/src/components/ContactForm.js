@@ -7,8 +7,22 @@ const [name, setName] = useState('');
 const [email, setEmail] = useState('');
 const [message, setMessage] = useState('');
 
+const handleSubmit = (e) => {
+  e.preventDefault();
+
+  db.collection('contacts').add({
+    name: name,
+    email: email,
+    message: message,
+  })
+
+  setName('');
+  setEmail('');
+  setMessage('');
+};
+
   return (
-    <form className='form'>
+    <form className='form' onSubmit={handleSubmit}>
 
     <label>Name</label>
     <input placeholder='Name'
