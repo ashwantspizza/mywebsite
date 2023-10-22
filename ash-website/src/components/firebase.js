@@ -1,7 +1,7 @@
-import firebase from 'firebase/app';
+import firebase from 'firebase';
 import 'firebase/firestore';
 
-// Your web app's Firebase configuration
+// firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyCVHp6kZxclpVl74qy8934CK27I6o3dw6o",
     authDomain: "ash-website-abs.firebaseapp.com",
@@ -11,7 +11,7 @@ const firebaseConfig = {
     appId: "1:195738044640:web:9061744075eebc0222e885"
   };
   
-  // Initialize Firebase
+  // initialize firebase
   const app = firebase.initializeApp(firebaseConfig);
   const db = app.firestore();
   
