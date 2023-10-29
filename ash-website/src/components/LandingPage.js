@@ -165,7 +165,7 @@ Learning some python in high school briefly taught me how to solve simple proble
         <div className="contact-section">
     <div className="contact-text"> <img src={arrow} alt="arrow-img" className="arrow-image" /> <h2>contact</h2> </div>
     <div className="contact-desc"> As I'm currently looking for a role in tech, I would love to hear any questions or feedback you have for me and will be open to any opportunities that you may have as well!</div>
-    <div className="contact-email"> You can reach out to me by email here: <strong>@aislingbrogansmith@gmail.com</strong></div>
+    <div className="contact-email"> You can reach out to me by email here: <strong>aislingbrogansmith@gmail.com</strong></div>
     <div className="contact-section-logos">
 
     <a href="https://github.com/ashwantspizza" target="_blank" rel="noreferrer">
