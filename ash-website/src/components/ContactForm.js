@@ -25,25 +25,25 @@ const handleSubmit = (e) => {
   return (
     <form className='form' onSubmit={handleSubmit}>
 
-    <label>Name</label>
-    <input placeholder='Name'
+    <label className='input-label'>Name</label>
+    <input id='name' className='input-field' placeholder='Name'
     value={name}
     onChange={(e) => setName(e.target.value)}
     />
 
-    <label>Email</label>
-    <input placeholder='Email'
+    <label className='input-label'>Email</label>
+    <input id='email' className='input-field'  placeholder='Email'
     value={email}
     onChange={(e) => setEmail(e.target.value)}
     />
 
-    <label>Message</label>
-    <textarea placeholder='Message'
+    <label className='input-label'>Message</label>
+    <textarea id='message' className='input-field' placeholder='Message'
     value={message}
     onChange={(e) => setMessage(e.target.value)}
     />
 
-    <button type='submit'>Submit</button>
+    <button className='submit-button' type='submit'>Submit</button>
 
     </form>
   )
