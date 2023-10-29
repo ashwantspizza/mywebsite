@@ -30,7 +30,7 @@ import heart from '../images/heart.png';
 import footer from '../images/footer.png';
 import { HashRouter } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import ContactForm from './ContactForm';
+// import ContactForm from './ContactForm';
 
 function LandingPage() {
 
@@ -176,8 +176,8 @@ Learning some python in high school briefly taught me how to solve simple proble
     </a>
 
     </div>
-    <div className="contact-form-prompt">Reach out to me!</div>
-    <ContactForm />
+    {/* <div className="contact-form-prompt">Reach out to me!</div> */}
+    {/* <ContactForm /> */}
     </div>
 
         </section>
