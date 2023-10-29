@@ -1,21 +1,30 @@
-.form {
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-}
-
+/* Style labels */
 .input-label {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.input-field {
-    width: 50%;
-    height: 50px;
+    font-size: 1.15rem;
+  }
+  
+  /* Style input fields */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    border: 1px solid #000;
-    margin-bottom: 20px;
-    padding-left: 10px;
-}
+  }
+  
+  /* Style the submit button */
+  .form button {
+    background-color: #7f63fc;
+    color: white;
+    font-family: 'Comfortaa', sans-serif;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style the textarea, which has its own tag name */
+  textarea.input-field {
+    height: 100px;
+  }
+  

@@ -176,7 +176,7 @@ Learning some python in high school briefly taught me how to solve simple proble
     </a>
 
     </div>
-
+    <div className="contact-form-prompt">Reach out to me!</div>
     <ContactForm />
     </div>
 

@@ -350,6 +350,19 @@
   width: 70%;
 }
 
+.contact-form-prompt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-top: 75px;
+  margin-bottom: 25px;
+  height: 100%;
+  width: 100%;
+}
+
 .contact-section-logos {
   display: flex;
   flex-direction: row;
@@ -399,7 +412,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 75px;
   height: 100%;
   width: 100%;
 }
@@ -431,7 +444,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 75px;
 }
 
 @keyframes bounce {
