@@ -34,7 +34,7 @@ import ContactForm from './ContactForm';
 
 function LandingPage() {
 
-  console.log('LandingPage component rendered :p');
+  {/*console.log('LandingPage component rendered :p');*/}
 
   const cvPdfUrl = process.env.PUBLIC_URL + '/cv.pdf';
 
@@ -155,8 +155,8 @@ function LandingPage() {
     <div className="about-desc"> 
     <div className="about-desc-1">A 22-year-old aspiring software developer who is a foodie and has a knack for solving puzzles.</div>
 <div className='about-desc-2'>Since childhood, the world of creating has always fascinated me - I'd always be annoying my mum by cutting things out from her magazines, scribbling onto them and creating messy collages.
-Learning some python in high school briefly taught me how to solve simple problems digitally and this brought me so much joy but I never had the courage to pursue it.</div>
-<div className="about-desc-3">Now, I've taken a leap to revisit my love of coding and pursue a career where I can apply my logical problem-solving skills!</div>
+Learning some python in high school briefly taught me how to solve simple problems digitally and this brought me a lot of joy but I never had the courage to pursue it.</div>
+<div className="about-desc-3">Now, I've taken a leap to revisit my love of coding and pursue a career where I can apply my creativity and logical problem-solving skills!</div>
 </div>
     </div>
 
@@ -166,7 +166,7 @@ Learning some python in high school briefly taught me how to solve simple proble
 
         <div className="contact-section">
     <div className="contact-text"> <img src={arrow} alt="arrow-img" className="arrow-image" /> <h2>contact</h2> </div>
-    <div className="contact-desc"> As I'm currently looking for a role in tech, I would love to hear any questions or feedback you have for me and will be open to any opportunities that you may have as well!</div>
+    <div className="contact-desc"> As I'm currently looking for a role in tech, I would love to hear any questions or feedback you have for me and will be open to any opportunities that you may have as well.</div>
     <div className="contact-section-logos">
 
     <a href="https://github.com/ashwantspizza" target="_blank" rel="noreferrer">
