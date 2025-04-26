@@ -8,7 +8,7 @@ To run the front-end locally, follow the steps below:
   git clone https://github.com/ashwantspizza/mywebsite.git
 ```
 
-2. Navigate to the correct folder: my-app
+2. Navigate to the correct folder: ash-website
 
 3. Install all necessary dependencies by running the following command in the terminal:
 
