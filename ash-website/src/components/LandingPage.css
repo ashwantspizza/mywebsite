@@ -14,16 +14,14 @@
 }
 
 .header-item {
-  max-width: 50px;
-  max-height: 50px;
   display: flex;
-  padding: 8px 16px;
+  padding: 25px;
   border-radius: 7px;
 }
 
-/* .header-item:hover {
-  background-color: #d000ff12;
-} */
+.header-item:hover {
+  background-color: #fae4b5;
+}
 
 .name-image-container {
   display: flex;
@@ -33,8 +31,8 @@
   height: 100%;
   height: auto;
   width: 100%;
-  margin-top: 275px;
-  margin-bottom: 500px;
+  margin-top: 300px;
+  margin-bottom: 450px;
 }
 
 .name-image {
