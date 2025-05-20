@@ -4,8 +4,10 @@ import work from '../images/work.png';
 import about from '../images/about.png';
 import contact from '../images/contact.png';
 import cv from '../images/cv.png';
+
 import name from '../images/name.png';
-import moonclouds from '../images/moonclouds.png';
+
+//images
 import hackhealth from '../images/hackhealth.png';
 import nudge from '../images/nudge.png';
 import githublogo from '../images/githublogo.png';
@@ -24,10 +26,7 @@ import restAPIlogo from '../images/restAPIlogo.png';
 import postgresql from '../images/postgresql.png';
 import nextjs from '../images/nextjs.png';
 import tailwindcss from '../images/tailwindcss.png';
-import pixelstar from '../images/pixelstar.png';
 import arrow from '../images/arrow.png';
-import heart from '../images/heart.png';
-import footer from '../images/footer.png';
 import { HashRouter } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import ContactForm from './ContactForm';
@@ -44,10 +43,6 @@ function LandingPage() {
       <HashRouter>
         <nav>
         <div className='nav-bar'>
-
-        <HashLink smooth to="/path#landingpage">
-        <div className = "moonclouds-container"> <img src={moonclouds} alt="moonclouds-img" className = "moonclouds-image"/> </div>
-        </HashLink>
 
 <div className='wacc-nav'>
         <div className='header-item'>
@@ -185,21 +180,10 @@ Learning some python in high school briefly taught me how to solve simple proble
     </div>
 
         </section>
-        <div className="pixelstar-container">
-          <div className="pixelstar">
-          <HashLink smooth to="/path#landingpage">
-          <img src={pixelstar} alt="star-img" className = "pixelstar"/>
-          </HashLink>
-          </div>
-        </div>
 
         <div className="footer">
           <h3>designed and built with react.js by aisling 'ash' brogan-smith</h3>
           <p>&copy; 2023 all rights reserved</p>
-        <div className='footer-image'>
-          <img src={heart} alt="heart-img" className="heart-footer" />
-          <img src={footer} alt="footer-img" className="chicken-footer" />
-        </div>
         </div>
       </HashRouter>
     </>
