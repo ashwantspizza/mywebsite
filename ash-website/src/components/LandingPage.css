@@ -18,9 +18,9 @@
   border-radius: 7px;
 }
 
-.header-item:hover {
+/* .header-item:hover {
   background-color: #d000ff12;
-}
+} */
 
 .name-image-container {
   display: flex;
@@ -387,16 +387,6 @@
 .linkedin-logo:hover {
   transform: scale(1.5);
   z-index: 2;
-}
-
-.arrow-image {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 65px;
-  margin-right: 10px;
 }
 
 .footer {
