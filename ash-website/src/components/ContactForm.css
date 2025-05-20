@@ -6,18 +6,18 @@
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border: 1px solid #7f63fc;
+    border: 1px solid #573c3c;
     border-radius: 5px;
-    color: #1b1133;
-    background-color: #DACCFA;
+    color: #573c3c;
+    background-color: #fae4b5;
   }
   
   .submit-button {
     font-family: 'Quicksand', sans-serif;
     font-size: 1rem;
     font-weight: 800;
-    background-color: #7f63fc;
-    color: #DACCFA;
+    background-color: #B6D7CE;
+    color: #573c3c;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
