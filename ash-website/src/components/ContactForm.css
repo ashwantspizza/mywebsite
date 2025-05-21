@@ -1,8 +1,10 @@
 .input-label {
-    font-size: 1.15rem;
+    font-size: 1.5rem;
+    font-weight: 550;
   }
   
   .input-field {
+    font-size: 1.15rem;
     width: 100%;
     padding: 10px;
     margin: 10px 0;
@@ -14,7 +16,7 @@
   
   .submit-button {
     font-family: 'Quicksand', sans-serif;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 800;
     background-color: #B6D7CE;
     color: #573c3c;
