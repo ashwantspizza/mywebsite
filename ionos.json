@@ -1,0 +1,5 @@
+{
+  "installCommand": "cd ash-website && npm install",
+  "buildCommand": "cd ash-website && npm run build",
+  "outputDirectory": "ash-website/build"
+}
