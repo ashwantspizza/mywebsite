@@ -15,3 +15,8 @@ To run the front-end locally, follow the steps below:
 ```bash
   npm i
 ```
+4. Run the site locally!
+
+```bash
+  npm start
+```
