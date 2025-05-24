@@ -26,6 +26,7 @@ import restAPIlogo from '../images/restAPIlogo.png';
 import postgresql from '../images/postgresql.png';
 import nextjs from '../images/nextjs.png';
 import tailwindcss from '../images/tailwindcss.png';
+import figmalogo from '../images/figmalogo.png';
 
 import { HashRouter } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
@@ -137,6 +138,7 @@ function LandingPage() {
 <img src={postgresql} alt="postgresql-img" className="toolbox-item" />
 <img src={nextjs} alt="nextjs-img" className="nextjs-logo" />
 <img src={tailwindcss} alt="tailwindcss-img" className="toolbox-item" />
+<img src={figmalogo} alt="figma-img" className="figma-logo" />
   </div>
   </div>
   

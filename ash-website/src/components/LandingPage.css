@@ -285,6 +285,22 @@
   z-index: 2;
 }
 
+.figma-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 40px;
+  /*hover effects*/
+  transition: 0.15s;
+}
+
+.figma-logo:hover {
+  transform: scale(1.5);
+  z-index: 2;
+}
+
 .about-section {
   display: flex;
   flex-direction: column;
