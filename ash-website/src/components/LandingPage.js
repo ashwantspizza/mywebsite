@@ -149,10 +149,9 @@ function LandingPage() {
         <div className="about-section">
     <div className="about-text"> <h2>about</h2> </div>
     <div className="about-desc"> 
-    <div className="about-desc-1">A 22-year-old aspiring software developer who is a foodie and has a knack for solving puzzles.</div>
-<div className='about-desc-2'>Since childhood, the world of creating has always fascinated me - I'd always be annoying my mum by cutting things out from her magazines, scribbling onto them and creating messy collages.
-Learning some python in high school briefly taught me how to solve simple problems digitally and this brought me a lot of joy but I never had the courage to pursue it.</div>
-<div className="about-desc-3">Now, I've taken a leap to revisit my love of coding and pursue a career where I can apply my creativity and logical problem-solving skills!</div>
+    <div className="about-desc-1">A lover of food who has a knack for puzzle-solving and creating innovative solutions to problems.</div>
+<div className='about-desc-2'>Since childhood, the world of creating has always fascinated me - I'd always be annoying my mum by cutting things out from her magazines or newspapers, scribbling onto them, or creating collages to make something of my own.</div>
+<div className="about-desc-3">Learning some python in high school briefly taught me how to be creative in a different way, whilst also solving problems; I thoroughly enjoyed it but I never had the courage to pursue it. I've taken the leap to revisit my love for design, along with balancing my career in retail, in hopes to ultimately pursue a career where I can apply my skills and creativity!</div>
 </div>
     </div>
 
@@ -162,7 +161,7 @@ Learning some python in high school briefly taught me how to solve simple proble
 
         <div className="contact-section">
     <div className="contact-text"> <h2>contact</h2> </div>
-    <div className="contact-desc"> As I'm currently looking for a role in Product and Website Design, I would love to hear any questions or feedback you have for me and will be open to any opportunities that you may have as well.</div>
+    <div className="contact-desc"> As I'm currently looking for a role in Product Design, I would love to hear any questions or feedback you have for me and will be open to any opportunities that you may have as well.</div>
     <div className="contact-section-logos">
 
     <a href="https://github.com/ashwantspizza" target="_blank" rel="noreferrer">
