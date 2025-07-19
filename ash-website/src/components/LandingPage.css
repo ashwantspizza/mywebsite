@@ -70,7 +70,7 @@
   font-size: 4rem;
 }
 
-.hackhealth-container {
+.weatherapp-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -79,7 +79,7 @@
   width: 80%;
 }
 
-.hackhealth-project-desc-container {
+.weatherapp-project-desc-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -90,7 +90,7 @@
   max-width: 40%;
 }
 
-.hackhealth-project-title {
+.weatherapp-project-title {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,7 +98,7 @@
   width: 100%;
 }
 
-.hackhealth-image {
+.weatherapp-image {
   border-radius: 10px;
   height: 100%;
   width: 500px;
@@ -108,12 +108,12 @@
 }
 
 /*hover effects*/
-.hackhealth-image:hover {
+.weatherapp-image:hover {
   transform: scale(1.15);
   z-index: 2;
 }
 
-.hackhealth-project-desc {
+.weatherapp-project-desc {
   font-size: 1.75rem;
   font-weight: 500;
   height: 100%;
@@ -121,7 +121,7 @@
 }
 
 
-.hackhealth-project-link {
+.weatherapp-project-link {
   display: flex;
   flex-direction: column;
   justify-content: center;

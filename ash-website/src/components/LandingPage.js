@@ -8,7 +8,7 @@ import cv from '../images/cv.png';
 import name from '../images/name.png';
 
 //images
-import hackhealth from '../images/hackhealth.png';
+import cloud from '../images/cloud.png';
 import nudge from '../images/nudge.png';
 import githublogo from '../images/githublogo.png';
 import linkedinlogo from '../images/linkedinlogo.png';
@@ -96,14 +96,14 @@ function LandingPage() {
     <div className="my-work-text">
       <h2>my work</h2>
     </div>
-    <div className="hackhealth-container">
-    <a href="https://github.com/SchoolOfCode/bc14_w7_project-frontend-room1-ash-anjum-david-tom">
-      <img src={hackhealth} alt="hackhealth-img" className="hackhealth-image" />
+    <div className="weatherapp-container">
+    <a href="https://github.com/ashwantspizza/weatherapp">
+      <img src={cloud} alt="weatherapp-img" className="weatherapp-image" />
       </a>
-      <div className="hackhealth-project-desc-container">
-        <div className="hackhealth-project-title"> <h3>HackHealth</h3> </div>
-        <div className="hackhealth-project-desc">HackHealth is an application that helps you to keep track of your daily steps and your weekly step goals.</div>
-        <div className="hackhealth-project-link">
+      <div className="weatherapp-project-desc-container">
+        <div className="weatherapp-project-title"> <h3>Weather App</h3> </div>
+        <div className="weatherapp-project-desc">This weather application was my first project using TypeScript and integrating APIs, built to showcase both functional design and clean user experience. It fetches real-time weather data using the OpenWeatherMap API and presents it through a simple, responsive UI. Focusing on designing intuitive interactions, I aimed to make the interface accessible and user-friendly across devices. This project reflects my growing skills in front-end development and my attention to detail in crafting engaging, user-centered digital experiences.</div>
+        <div className="weatherapp-project-link">
         </div>
       </div>
     </div>
@@ -113,7 +113,7 @@ function LandingPage() {
       </a>
       <div className="nudge-project-desc-container">
         <div className="nudge-project-title"> <h3>NUDGE</h3> </div>
-        <div className="nudge-project-desc">Nudge is an application that empowers individuals and motivates them to study, prompting them to revise consistently and compete with friends.</div>
+        <div className="nudge-project-desc">Nudge is a gamified study companion designed to make productivity more engaging and rewarding. Developed collaboratively with a team, the project merges playful aesthetics and a fun colour palette to motivate users through visual progress and interactive feedback. We focused on creating an intuitive and enjoyable user journey whilst balancing fun and functionality. We worked iteratively to design user flows that felt both game-like and goal-oriented, with special attention to responsive design and accessibility. This project strengthened my skills in collaborative design, user engagement, and bringing creativity into everyday digital experiences.</div>
         <div className="nudge-project-link">
         </div>
       </div>
